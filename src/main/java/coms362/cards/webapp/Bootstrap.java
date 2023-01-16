@@ -88,7 +88,7 @@ public class Bootstrap {
     }
 
     public void configWebapps(WebappConfig webappConfigs[]) throws Exception {
-        server = new Server(8080);
+        server = new Server();
 
         HandlerCollection handlers = new HandlerCollection();
         for (WebappConfig config : webappConfigs) {

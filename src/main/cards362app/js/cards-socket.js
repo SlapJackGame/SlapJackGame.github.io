@@ -1,4 +1,4 @@
-var wsUri = "ws://localhost:8080/cards362/socket";
+var wsUri = "ws://https://slapjackgame.github.io/cards362/socket";
 var output;
 
 function init() {
