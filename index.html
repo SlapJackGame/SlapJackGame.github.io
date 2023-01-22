@@ -16,8 +16,8 @@
 				margin: 200px 0 0 0;
 			}
 			.demo{
-				width: 75%;
-				margin: 20px auto;
+				width: 65%;
+				margin: 25px auto;
 				border: 1px solid #ccc;
 				padding: 20px;
 				position: relative;
@@ -28,36 +28,15 @@
 				height: 25px;
 				overflow: hidden;
 			}
-			/*animation-fill-mode 属性规定动画在播放之前或之后，其动画效果是否可见。fprwards 当动画完成后，保持最后一个属性值（在最后一个关键帧中定义）。*/
 			.item >div{
 				position: absolute;
 				height: 18px;
 				top: 25px;
 				animation: textToTop 0.2s linear;
-				animation-fill-mode: forwards;
+				animation-fill-mode:forwards;
 				
 			}
-			.item:nth-child(2)>div{
-				animation-delay: 2s;
-			}
-			.item:nth-child(3)>div{
-				animation-delay: 4s;
-			}
-			.item:nth-child(4)>div{
-				animation-delay: 6s;
-			}
-			.item:nth-child(5)>div{
-				animation-delay: 6s;
-			}
-      .item:nth-child(6)>div{
-				animation-delay: 4s;
-			}
-      .item:nth-child(7)>div{
-				animation-delay: 2s;
-			}
-      .item:nth-child(8)>div{
-				animation-delay: 0s;
-			}
+			
 			.item >div::before{
 				content: attr(data-letters);
 				position: absolute;
@@ -71,37 +50,37 @@
 			}
 			.item:nth-child(2) >div::after,
 			.item:nth-child(2) >div::before{
-				animation-delay: 2.5s;
+				animation-delay: 0.5s;
 				
 			}
 			.item:nth-child(3) >div::after,
 			.item:nth-child(3) >div::before{
-				animation-delay: 4.5s;
+				animation-delay: 1s;
 				
 			}
 			.item:nth-child(4) >div::after,
 			.item:nth-child(4) >div::before{
-				animation-delay: 6.5s;
+				animation-delay: 1.5s;
 				
 			}
 			.item:nth-child(5) >div::after,
 			.item:nth-child(5) >div::before{
-				animation-delay: 6.5s;
+				animation-delay: 2s;
 				
 			}
       .item:nth-child(6) >div::after,
 			.item:nth-child(6) >div::before{
-				animation-delay: 4.5s;
+				animation-delay: 2.5s;
 				
 			}
 			.item:nth-child(7) >div::after,
 			.item:nth-child(7) >div::before{
-				animation-delay: 2.5s;
+				animation-delay: 3s;
 				
 			}
       .item:nth-child(8) >div::after,
 			.item:nth-child(8) >div::before{
-				animation-delay: 0s;
+				animation-delay: 3.5s;
 				
 			}
 			.item >div::after{
@@ -141,8 +120,7 @@
 
   <body style="background-image: url(bc.jpeg);">
 
-    
-    <h2 style="color: burlywood; text-align: center;">Slapjack</h2>
+    <h2 style="color: burlywood; text-align: center;"> Slapjack </h2>
     <br>
     <h4 style="color: white;margin-left: 13%; margin-right: 13%;">Slapjack, also known as Slaps, is a card game of the matching family, generally played among children. It can often be a child's first introduction to playing cards. Note: If you have problems opening both players, the server will restart after about 6 minutes. This is because I set two sessions (one Websocket Connection) only, so for example, if there are already two pages for player1 and player2 and you refresh one of pages, the server will restart.</h4>
     <br>
@@ -153,14 +131,14 @@
 
   <div class="demo">
     <ul>
-      <li class="item"><div data-letters="2 players required, a turn-based game and player1 will go first.">2 players required, a turn-based game and player1 will go first.</div></li>
-      <li class="item"><div data-letters="Click Deal button to play the game.">Click Deal button to play the game.</div></li>
-      <li class="item"><div data-letters="Shuffle a deck: Each player will get 26 cards randomly at the beginning.">Shuffle a deck: Each player will get 26 cards randomly at the beginning.</div></li>
-      <li class="item"><div data-letters="Each player lifts one card at a time from their pile and places it face up in the center of the table.">Each player lifts one card at a time from their pile and places it face up in the center of the table.</div></li>
-      <li class="item"><div data-letters="When the card played to the center is a jack, the fun begins!">When the card played to the center is a jack, the fun begins!</div></li>
-      <li class="item"><div data-letters="The first player to slap their hand down on the jack takes it, as well as all the cards beneath it.">The first player to slap their hand down on the jack takes it, as well as all the cards beneath it.</div></li>
-      <li class="item"><div data-letters="The first player to slap their hand down on the jack takes it, as well as all the cards beneath it.">The first player to slap their hand down on the jack takes it, as well as all the cards beneath it.</div></li>
-      <li class="item"><div data-letters="The player winning these cards turns them face down, places them on their pile of cards.">The player winning these cards turns them face down, places them on their pile of cards.</div></li>
+      <li class="item"><div data-letters="🂫 2 players required, a turn-based game and player1 will go first.">🂫 2 players required, a turn-based game and player1 will go first.</div></li>
+      <li class="item"><div data-letters="🂫 Click Deal button to play the game.">🂫 Click Deal button to play the game.</div></li>
+      <li class="item"><div data-letters="🂫 Shuffle a deck: Each player will get 26 cards randomly at the beginning.">🂫 Shuffle a deck: Each player will get 26 cards randomly at the beginning.</div></li>
+      <li class="item"><div data-letters="🂫 Each player lifts one card at a time from their pile and places it face up in the center of the table.">🂫🂫🂫 Each player lifts one card at a time from their pile and places it face up in the center of the table.</div></li>
+      <li class="item"><div data-letters="🂫 When the card played to the center is a jack, the fun begins!">🂫 When the card played to the center is a jack, the fun begins!</div></li>
+      <li class="item"><div data-letters="🂫 The first player to slap their hand down on the jack takes it, as well as all the cards beneath it.">🂫 The first player to slap their hand down on the jack takes it, as well as all the cards beneath it.</div></li>
+      <li class="item"><div data-letters="🂫 The first player to slap their hand down on the jack takes it, as well as all the cards beneath it.">🂫 The first player to slap their hand down on the jack takes it, as well as all the cards beneath it.</div></li>
+      <li class="item"><div data-letters="🂫 The player winning these cards turns them face down, places them on their pile of cards.">🂫 The player winning these cards turns them face down, places them on their pile of cards.</div></li>
     </ul>
   </div>
   
@@ -170,10 +148,11 @@
     <br>
     <br>
     <br>
-  <center><h2><a style="color: burlywood;" href="https://slapjack-rundi.herokuapp.com/?host&player=1&game=Slapjack" target="_blank">🂫 Player1</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a style="color: burlywood;" href="https://slapjack-rundi.herokuapp.com/?player=2" target="_blank">Player2 🂫</a></h2></center>
+    
+  <center><h2><a style="color: burlywood;" href="https://slapjack-rundi.herokuapp.com/?host&player=1&game=Slapjack" target="_blank">🂫 Player1 🂫</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a style="color: burlywood;" href="https://slapjack-rundi.herokuapp.com/?player=2" target="_blank">🂫 Player2 🂫</a></h2></center>
     <br>
   <footer>
-      <center><p style="color: white">Author: <a style="color: burlywood;" href="https://rliu9.github.io/" target="_blank">Rundi Liu</a></p></center>
+      <center><p style="color: white">Made By: <a style="color: burlywood;" href="https://rliu9.github.io/" target="_blank">Rundi Liu</a></p></center>
     </footer>
 
   </body>
